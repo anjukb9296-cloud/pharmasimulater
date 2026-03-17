@@ -1,0 +1,52 @@
+
+html_content = """
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pharmacology Simulation Platform</title>
+<style>
+body {font-family: Arial; margin: 40px; background:#f5f7fb;}
+h1 {color:#2c3e50;}
+.section {background:white; padding:20px; margin-bottom:20px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1);}
+</style>
+</head>
+<body>
+
+<h1>Advanced Pharmacology Simulation Platform</h1>
+
+<div class="section">
+<h2>CPCSEA Compliant Virtual Lab</h2>
+<p>Replaces animal experiments using validated simulations based on 3Rs principle.</p>
+</div>
+
+<div class="section">
+<h2>Key Features</h2>
+<ul>
+<li>ED50 / LD50 Calculation Engine</li>
+<li>PK-PD Modeling</li>
+<li>Automated Graph Plotting</li>
+<li>AI-Based Result Interpretation</li>
+<li>3D Animal Simulation</li>
+<li>Voice-Guided Lab Assistant</li>
+<li>Cloud Student Database</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>For Universities</h2>
+<p>Designed for B.Pharm & M.Pharm practicals with report generation and assessment tools.</p>
+</div>
+
+<div class="section">
+<h2>Global Scaling</h2>
+<p>Supports multi-language, international syllabus, and regulatory alignment.</p>
+</div>
+
+</body>
+</html>
+"""
+
+file_path = "/mnt/data/pharma_platform_preview.html"
+Path(file_path).write_text(html_content)
+
+file_path
